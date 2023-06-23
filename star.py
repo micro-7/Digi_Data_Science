@@ -1,12 +1,13 @@
 from turtle import*
 
-speed('slowest')
-distance = 100
-size = 10
-for side in range(5):
-    fd(size)
-    rt(72)
-    fd(size)
-    rt(72 - 120)
+speed('fast')
+
+sides=5
+distance=100
+for i in range(sides):
+    rt(144)
+    fd(distance)
+    lt(72)
+    fd(distance)
 
 mainloop()
